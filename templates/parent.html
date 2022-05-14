@@ -1,0 +1,13 @@
+<head>
+    {% block head %}
+    <title>Moja strona domowa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+    {% endblock %}
+</head>
+<body>
+    {% block header %}
+    <p class="banner"><strong>Witaj na mojej stronie domowej!</strong></p>
+    <img src="{{url_for('static',filename='ja.jpg')}}" alt="my face" title="I">>
+    {% endblock %}
+    {% block content %}{% endblock %}
+</body>

@@ -1,0 +1,14 @@
+.banner {
+    background-color: olive;
+    padding: 10px;
+    font-size: 40px;
+  }
+h2 {
+    color: red;
+    font-size: 100px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+.about-me {
+    font-size: 40px;
+}   
